@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body { margin: 0; color: #273238; background: #f4f6f7; font: 16px/1.6 Arial, sans-serif; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1.2rem 6%; background: white; }
+.logo { color: #273238; font-weight: 700; text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; gap: 1rem; }
+nav a { color: #40535c; text-decoration: none; }
+main { max-width: 900px; margin: 3rem auto; padding: 0 1.25rem; }
+.hero { padding: 2rem 0 3rem; }
+.hero h1 { max-width: 680px; font-size: clamp(2.2rem, 6vw, 4rem); line-height: 1.1; }
+.tag { color: #356b83; font-weight: 700; }
+.projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+article { padding: 1.25rem; background: white; border: 1px solid #dfe6e8; border-radius: 8px; }
+address { font-style: normal; }
+footer { padding: 1.5rem; color: #66747a; text-align: center; background: white; }
+@media (max-width: 560px) { header { align-items: flex-start; flex-direction: column; } .projects { grid-template-columns: 1fr; } }
