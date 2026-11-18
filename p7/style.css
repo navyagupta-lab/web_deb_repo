@@ -8,15 +8,48 @@
   --content-width: 720px;
 }
 * { box-sizing: border-box; }
-body { margin: 0; color: var(--ink); background: var(--paper); font: 16px/1.7 Georgia, serif; }
-header { display: flex; justify-content: space-between; padding: var(--space) 6%; background: var(--surface); font: 700 .8rem Arial, sans-serif; letter-spacing: .1em; }
-main { max-width: var(--content-width); margin: 3rem auto; padding: 0 1.25rem; }
-.eyebrow { color: var(--accent); font: 700 .9rem Arial, sans-serif; }
-h1 { max-width: 650px; font-size: clamp(2.3rem, 6vw, 3.8rem); line-height: 1.08; }
-.lead { color: var(--muted); font-size: 1.2rem; }
-section { margin-top: 2rem; padding: 1.25rem; background: var(--surface); border-radius: 8px; }
-.small { color: var(--muted); font-size: .9rem; }
-.swatches { display: flex; flex-wrap: wrap; gap: .75rem; }
-.swatches span { padding: .8rem 1rem; color: white; background: var(--accent); border-radius: 5px; }
+body { margin: 0; 
+      color: var(--ink); 
+      background: var(--paper);
+      font: 16px/1.7 Georgia, serif; 
+     }
+header { display: flex;
+        justify-content: space-between;
+        padding: var(--space) 6%;
+        background: var(--surface); 
+        font: 700 .8rem Arial, sans-serif;
+        letter-spacing: .1em; 
+       }
+main { max-width: var(--content-width);
+      margin: 3rem auto;
+      padding: 0 1.25rem; 
+     }
+.eyebrow { color: var(--accent); 
+          font: 700 .9rem Arial, sans-serif; 
+         }
+h1 { max-width: 650px; 
+    font-size: clamp(2.3rem, 6vw, 3.8rem); 
+    line-height: 1.08; 
+   }
+.lead { color: var(--muted); 
+       font-size: 1.2rem;
+      }
+section { margin-top: 2rem;
+         padding: 1.25rem; 
+         background: var(--surface); 
+         border-radius: 8px;
+        }
+.small { color: var(--muted);
+        font-size: .9rem; 
+       }
+.swatches { display: flex; 
+           flex-wrap: wrap; 
+           gap: .75rem; 
+          }
+.swatches span { padding: .8rem 1rem;
+                color: white; 
+                background: var(--accent);
+                border-radius: 5px; 
+               }
 .swatches span:first-child { background: var(--ink); }
 .swatches span:nth-child(2) { color: var(--ink); background: var(--paper); border: 1px solid #ddd; }
