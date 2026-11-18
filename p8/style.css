@@ -1,12 +1,54 @@
 * { box-sizing: border-box; }
-body { margin: 0; color: #2d3436; background: #f6f5f2; font: 16px/1.6 Arial, sans-serif; }
-.navbar { position: sticky; top: 0; z-index: 5; display: flex; gap: 1.5rem; padding: 1rem 6%; background: #fff; border-bottom: 1px solid #e2e2df; }
-.navbar a { color: #2d3436; text-decoration: none; }
-main { max-width: 760px; margin: 3rem auto; padding: 0 1.25rem; }
-.tag { color: #8a5b36; font-weight: 700; }
-.feature-card { position: relative; overflow: hidden; margin-top: 2rem; background: white; border: 1px solid #e2ded7; border-radius: 10px; }
-.picture { display: grid; min-height: 220px; place-items: center; color: #675849; background: #e7ded1; }
-.label { position: absolute; top: 1rem; left: 1rem; padding: .4rem .7rem; color: white; background: #8a5b36; border-radius: 4px; font-size: .85rem; }
+body { margin: 0;
+      color: #2d3436;
+      background: #f6f5f2;
+      font: 16px/1.6 Arial, sans-serif;
+     }
+.navbar { position: sticky;
+         top: 0; z-index: 5;
+         display: flex; 
+         gap: 1.5rem;
+         padding: 1rem 6%; 
+         background: #fff;
+         border-bottom: 1px solid #e2e2df;
+        }
+.navbar a { color: #2d3436;
+           text-decoration: none;
+          }
+main { max-width: 760px;
+      margin: 3rem auto; 
+      padding: 0 1.25rem; 
+     }
+.tag { color: #8a5b36; 
+      font-weight: 700; 
+     }
+.feature-card { position: relative; 
+               overflow: hidden; 
+               margin-top: 2rem; 
+               background: white; 
+               border: 1px solid #e2ded7; 
+               border-radius: 10px; 
+              }
+.picture { display: grid;
+          min-height: 220px; 
+          place-items: center; 
+          color: #675849; 
+          background: #e7ded1;
+         }
+.label { position: absolute; 
+        top: 1rem; 
+        left: 1rem; 
+        padding: .4rem .7rem;
+        color: white; 
+        background: #8a5b36;
+        border-radius: 4px; 
+        font-size: .85rem; 
+       }
 .card-copy { padding: 1.25rem; }
-section { min-height: 360px; margin-top: 2rem; padding: 1.25rem; background: white; border-radius: 8px; }
+section { min-height: 360px;
+         margin-top: 2rem; 
+         padding: 1.25rem; 
+         background: white;
+         border-radius: 8px; 
+        }
 @media (max-width: 480px) { .navbar { justify-content: space-between; gap: .5rem; } }
